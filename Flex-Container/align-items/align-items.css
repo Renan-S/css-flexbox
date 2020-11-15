@@ -1,0 +1,61 @@
+
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.center {
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.container {
+    max-width: 400px;
+    min-height: 100px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.item {
+    margin: 5px;
+    background: tomato;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0 10px;
+    flex: 1;
+}
+
+.item:first-child {
+    padding-top: 15px;
+}
+
+.center-align {
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-align .item {
+    flex: 0;
+}
+

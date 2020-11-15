@@ -1,0 +1,50 @@
+
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end
+}
+
+.center {
+    justify-content: center
+}
+
+.space-between {
+    justify-content: space-between
+}
+
+.space-around {
+    justify-content: space-around
+}
+
+.flex-item-1 {
+    flex: 1;
+}
+
+.column {
+    min-height: 200px;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.item {
+    margin: 5px;
+    background: tomato;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0 10px;
+}
+
